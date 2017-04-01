@@ -68,7 +68,7 @@ app.controller('MainCtrl', function($scope, $interval) {
       // countdown is finished
       
       // Play audio
-      var sound = 'https://yevhensu.github.io/sound/';
+      var sound = 'test-audio.mp3';
       var audio = new Audio(sound);
 			audio.play();
       
